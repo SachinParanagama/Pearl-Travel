@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:background="@drawable/bg4"
+tools:context=".BookingActivity">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginBottom="80dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="20dp"
+    android:background="@drawable/custom_edittext"
+    app:cardBackgroundColor="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="28dp"
+        android:background="#40FFFFFF">
+
+
+        <TextView
+            android:id="@+id/regText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_reservation"
+            android:textAlignment="center"
+            android:textColor="#263238"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/name3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/new_border"
+            android:drawablePadding="8dp"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textColorHint="#5C6BC0" />
+        <EditText
+            android:id="@+id/email3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/new_border"
+            android:drawablePadding="8dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textColorHint="#5C6BC0" />
+
+        <EditText
+            android:id="@+id/phone3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/new_border"
+            android:drawablePadding="8dp"
+            android:hint="@string/contact_number"
+            android:inputType="phone"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textColorHint="#5C6BC0" />
+
+        <EditText
+            android:id="@+id/num3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/new_border"
+            android:drawablePadding="8dp"
+            android:hint="@string/seat_count"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textColorHint="#5C6BC0" />
+        <EditText
+            android:id="@+id/date3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/new_border"
+            android:drawablePadding="8dp"
+            android:inputType="datetime"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textColorHint="#5C6BC0" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:padding="18dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/teal_700"
+            android:text="Submit"
+            android:textColor="#263238"
+            android:textSize="18sp"
+            app:cornerRadius="10dp" />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/bottom_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    app:itemBackground="@color/teal_700"
+    app:itemIconTint="@drawable/selector"
+    app:itemTextColor="@drawable/selector"
+    app:menu="@menu/menu_navigation" />
+
+</LinearLayout>

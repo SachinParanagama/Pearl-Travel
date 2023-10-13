@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Train_Management</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="not_yet_registered_signup_now">Not yet registered? SignUp Now</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="nic">NIC</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="register">Register</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="update_user">Update User</string>
+    <string name="update">Update</string>
+    <string name="disable">Disable</string>
+    <string name="log_out">Log Out</string>
+    <string name="title_activity_booking">BookingActivity</string>
+    <string name="add_booking">Add Booking</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="passengers">passengers</string>
+    <string name="signup">Sign Up</string>
+    <string name="already_an_user_login">Already an user? Login</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="surname">Surname</string>
+    <string name="not_yet_registered_signup">Not yet registered? Signup</string>
+    <string name="add_reservation">Add Reservations</string>
+    <string name="seat_count">Seat Count</string>
+    <string name="user_profile">User Profile</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="deactivate">Deactivate</string>
+    <string name="modify">Modify</string>
+    <string name="traveler_name">Traverler Name</string>
+    <string-array name="dropdownItems">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <!-- Add more items as needed -->
+    </string-array>
+</resources>
